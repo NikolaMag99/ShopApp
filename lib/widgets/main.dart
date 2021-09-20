@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MyShop',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
+        // ignore: deprecated_member_use
+        accentColor: Colors.deepOrange,
+        errorColor: Colors.red,
       ),
       home: ProductsOverviewScreen(),
     );
